@@ -93,10 +93,12 @@ npm run dev
 7. Open your browser at http://localhost:3000 to use the app.
 
 ## Usage
--Register a new account or log in with existing credentials
--View online users and chat in real-time
--Open multiple browser windows or devices to test messaging
--Log out when finished
+
+- Register a new account or log in with existing credentials  
+- View online users and chat in real-time  
+- Open multiple browser windows or devices to test messaging  
+- Log out when finished  
+
 
 ## Folder Structure
 
