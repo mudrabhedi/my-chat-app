@@ -100,6 +100,7 @@ npm run dev
 
 ## Folder Structure
 
+```
 /CHAT-APP
 ├── backend
 │ ├── src
@@ -129,7 +130,7 @@ npm run dev
 ├── .gitignore # Specifies intentionally untracked files to ignore
 ├── LICENSE # License file 
 └── README.md 
-
+```
 ## Environment Variables
 Create a .env file in the backend directory with the following variables:
 
