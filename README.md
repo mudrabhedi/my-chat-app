@@ -98,36 +98,37 @@ npm run dev
 -Open multiple browser windows or devices to test messaging
 -Log out when finished
 
-Folder Structure
+## Folder Structure
+
 /CHAT-APP
 ├── backend
-│   ├── src
-│   │   ├── controllers      # Business logic for routes
-│   │   ├── middleware       # Auth and error handling middleware
-│   │   ├── models           # Mongoose models (User, Message, etc.)
-│   │   ├── routes           # Express routes (auth, chat, etc.)
-│   │   └── server.js        # Entry point for backend server
-│   ├── package.json         # Backend dependencies and scripts
-│   └── package-lock.json
+│ ├── src
+│ │ ├── controllers # Business logic for routes
+│ │ ├── middleware # Auth and error handling middleware
+│ │ ├── models # Mongoose models (User, Message, etc.)
+│ │ ├── routes # Express routes (auth, chat, etc.)
+│ │ └── server.js # Entry point for backend server
+│ ├── package.json # Backend dependencies and scripts
+│ └── package-lock.json
 │
 ├── frontend
-│   ├── public               # Static assets and index.html
-│   ├── src
-│   │   ├── components       # React components (Chat, Login, etc.)
-│   │   ├── context          # Context API providers if any
-│   │   ├── pages            # React pages or views
-│   │   ├── App.jsx          # Root React component
-│   │   └── main.jsx         # ReactDOM entry point
-│   ├── package.json         # Frontend dependencies and scripts
-│   ├── vite.config.js       # Vite config file
-│   ├── tailwind.config.js   # Tailwind CSS config
-│   ├── postcss.config.js    # PostCSS config
-│   ├── eslint.config.js     # ESLint configuration
-│   └── package-lock.json
+│ ├── public # Static assets and index.html
+│ ├── src
+│ │ ├── components # React components (Chat, Login, etc.)
+│ │ ├── context # Context API providers if any
+│ │ ├── pages # React pages or views
+│ │ ├── App.jsx # Root React component
+│ │ └── main.jsx # ReactDOM entry point
+│ ├── package.json # Frontend dependencies and scripts
+│ ├── vite.config.js # Vite config file
+│ ├── tailwind.config.js # Tailwind CSS config
+│ ├── postcss.config.js # PostCSS config
+│ ├── eslint.config.js # ESLint configuration
+│ └── package-lock.json
 │
-├── .gitignore               # Specifies intentionally untracked files to ignore
-├── LICENSE                  # License file (e.g., MIT)
-└── README.md                # This file
+├── .gitignore # Specifies intentionally untracked files to ignore
+├── LICENSE # License file 
+└── README.md 
 
 ## Environment Variables
 Create a .env file in the backend directory with the following variables:
