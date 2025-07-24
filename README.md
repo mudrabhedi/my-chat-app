@@ -134,8 +134,6 @@ npm run dev
 ## Environment Variables
 Create a .env file in the backend directory with the following variables:
 
-env
-
 ```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
@@ -145,13 +143,15 @@ If your frontend requires environment variables, create .env in the frontend dir
 
 ---
 ## Contributing
+
 Contributions are welcome! To contribute:
 
--Fork the repository
--Create a new branch (git checkout -b feature-name)
--Make your changes and commit (git commit -m 'Add new feature')
--Push to the branch (git push origin feature-name)
--Open a pull request for review
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Make your changes and commit (`git commit -m 'Add new feature'`)  
+4. Push to the branch (`git push origin feature-name`)  
+5. Open a pull request for review  
+
 ---
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
